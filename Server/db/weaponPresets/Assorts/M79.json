@@ -1,0 +1,95 @@
+{
+  "5935c25fb3acc3127c3d8cd9": {
+    "items": [
+      {
+        "_id": "6fc37bed7b9998d29328bac2",
+        "_tpl": "06b165b82cb6183fa8c45d52",
+        "parentId": "hideout",
+        "slotId": "hideout",
+        "upd": {
+          "StackObjectsCount": 999999,
+          "UnlimitedCount": true,
+          "BuyRestrictionMax": 1,
+          "Repairable": {
+            "Durability": 100,
+            "MaxDurability": 100
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "58b93bff54357dfa985086dc",
+        "_tpl": "f1ad6e58b4bacd580b81bc18",
+        "parentId": "6fc37bed7b9998d29328bac2",
+        "slotId": "mod_barrel"
+      }
+    ],
+    "barter_scheme": {
+      "6fc37bed7b9998d29328bac2": [
+        [
+          {
+            "_tpl": "5696686a4bdc2da3298b456a",
+            "count": 700
+          }
+        ]
+      ]
+    },
+    "loyal_level_items": {
+      "6fc37bed7b9998d29328bac2": 2
+    }
+  },
+  "5a7c2eca46aef81a7ca2145d": {
+    "items": [
+      {
+        "_id": "16c1774d925fe046368c4479",
+        "_tpl": "aaea0d077f0631db0985290a",
+        "parentId": "hideout",
+        "slotId": "hideout",
+        "upd": {
+          "StackObjectsCount": 999999,
+          "UnlimitedCount": true,
+          "BuyRestrictionMax": 10
+        }
+      },
+      {
+        "_id": "a4920d42e48308b2706e4051",
+        "_tpl": "956d95b681fc6f0014584840",
+        "parentId": "hideout",
+        "slotId": "hideout",
+        "upd": {
+          "StackObjectsCount": 999999,
+          "UnlimitedCount": true,
+          "BuyRestrictionMax": 5
+        }
+      }
+    ],
+    "barter_scheme": {
+      "16c1774d925fe046368c4479": [
+        [
+          {
+            "_tpl": "5449016a4bdc2d6f028b456f",
+            "count": 21436
+          }
+        ]
+      ],
+      "a4920d42e48308b2706e4051": [
+        [
+          {
+            "_tpl": "573719df2459775a626ccbc2",
+            "count": 10
+          },
+          {
+            "_tpl": "573476f124597737e04bf328",
+            "count": 3
+          }
+        ]
+      ]
+    },
+    "loyal_level_items": {
+      "16c1774d925fe046368c4479": 2,
+      "a4920d42e48308b2706e4051": 2
+    }
+  }
+}

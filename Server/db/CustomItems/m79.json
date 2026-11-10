@@ -1,0 +1,166 @@
+{
+  "06b165b82cb6183fa8c45d52": {
+    "itemTplToClone": "5e81ebcd8e146c7080625e15",
+    "parentId": "5447bedf4bdc2d87278b4568",
+    "handbookParentId": "5b5f79d186f774093f2ed3c2",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "weapon_m79_40x46_container.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Slots": [
+        {
+          "_id": "9dacc1e26ce78ad192703fcb",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_barrel",
+          "_parent": "06b165b82cb6183fa8c45d52",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "f1ad6e58b4bacd580b81bc18"
+                ],
+                "Shift": 0,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        }
+      ],
+      "Chambers": [
+        {
+          "_id": "1819bf04aadd82985e153b31",
+          "_mergeSlotWithChildren": false,
+          "_name": "patron_in_weapon_000",
+          "_parent": "06b165b82cb6183fa8c45d52",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ede474b0c226a66f5402622",
+                  "5ede475b549eed7c6d5c18fb",
+                  "5ede4739e0350d05467f73e8",
+                  "5f0c892565703e5c461894e9",
+                  "5ede47405b097655935d7d16",
+                  "5ede475339ee016e8c534742",
+                  "5ede47641cf3836a88318df1",
+                  "956d95b681fc6f0014584840",
+                  "aaea0d077f0631db0985290a"
+                ],
+                "MaxStackCount": 0
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        }
+      ],
+      "Width": 2,
+      "Height": 1,
+      "Weight": 1.77,
+      "Ergonomics": 52,
+      "RecoilForceUp": 260,
+      "RecoilForceBack": 520,
+      "Foldable": false,
+      "FoldedSlot": "",
+      "CompactHandling": false,
+      "SizeReduceRight": 0,
+      "isBoltCatch": false,
+      "RotationCenter": {
+        "x": 0,
+        "y": -0.15,
+        "z": 0
+      },
+      "RecoilCenter": {
+        "x": 0,
+        "y": -0.31,
+        "z": 0
+      },
+      "DropSoundType": "Rifle",
+      "ItemSound": "weap_rifle",
+      "weapClass": "grenadeLauncher",
+      "weapUseType": "primary",
+      "weapFireType": [
+        "single"
+      ],
+      "ammoCaliber": "Caliber40x46",
+      "defAmmo": "5ede474b0c226a66f5402622"
+    },
+    "fleaPriceRoubles": 85000,
+    "handbookPriceRoubles": 85000,
+    "addtoTraders": false,
+    "addtoSecureFilters": false,
+    "addtoInventorySlots": [
+      "FirstPrimaryWeapon",
+      "SecondPrimaryWeapon"
+    ],
+    "locales": {
+      "en": {
+        "name": "M79 40mm grenade launcher",
+        "shortName": "M79",
+        "description": "The M79 is a single-shot, break-action 40mm grenade launcher adopted by the US Army in 1961 and widely used in the Vietnam War, where it earned the nicknames \"Thumper\" and \"Blooper\". Pushing the latch on top of the receiver opens the breech and cocks the hammer; the spent case has to be pulled out by hand. Fires the full range of NATO standard 40x46mm low-velocity grenades. Manufactured by Springfield Armory."
+      },
+      "po": {
+        "name": "Lança-granadas 40mm M79",
+        "shortName": "M79",
+        "description": "O M79 é um lança-granadas de 40 mm de tiro único e ação basculante, adotado pelo Exército dos EUA em 1961 e muito usado na Guerra do Vietnã, onde ganhou os apelidos de \"Thumper\" e \"Blooper\". Empurrar a trava em cima da caixa da culatra abre a arma e arma o cão; o estojo vazio tem de ser tirado à mão. Dispara toda a gama de granadas 40x46mm de baixa velocidade do padrão NATO. Fabricado pela Springfield Armory."
+      },
+      "ru": {
+        "name": "Однозарядный гранатомет M79 40мм",
+        "shortName": "M79",
+        "description": "M79 — однозарядный 40-мм гранатомет с переломным стволом, принятый на вооружение армии США в 1961 году и широко применявшийся во Вьетнамской войне, где получил прозвища \"Thumper\" и \"Blooper\". Нажатие на защелку сверху ствольной коробки открывает ствол и взводит курок; стреляную гильзу приходится извлекать вручную. Стреляет всей номенклатурой 40x46-мм низкоскоростных гранат стандарта НАТО. Производство Springfield Armory."
+      }
+    }
+  },
+  "f1ad6e58b4bacd580b81bc18": {
+    "itemTplToClone": "61f4012adfc9f01a816adda1",
+    "parentId": "555ef6e44bdc2de9068b457e",
+    "handbookParentId": "5b5f75c686f774094242f19f",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "barrel_m79_356mm_40x46.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Slots": [],
+      "Weight": 0.95,
+      "Ergonomics": 0,
+      "Recoil": 0,
+      "Velocity": 0,
+      "CenterOfImpact": 0.7,
+      "DeviationCurve": 1.9,
+      "DeviationMax": 15,
+      "ShotgunDispersion": 6,
+      "Width": 2,
+      "Height": 1,
+      "ExtraSizeLeft": 2,
+      "RaidModdable": false,
+      "ToolModdable": false,
+      "IsAnimated": true
+    },
+    "fleaPriceRoubles": 15000,
+    "handbookPriceRoubles": 15000,
+    "addtoTraders": false,
+    "addtoSecureFilters": false,
+    "locales": {
+      "en": {
+        "name": "M79 40mm 356mm barrel",
+        "shortName": "M79 barrel",
+        "description": "The 356mm (14-inch) aluminium barrel of the M79 grenade launcher, hinged to the front of the receiver, with the wooden forend and the folding leaf sight mounted on it. "
+      },
+      "po": {
+        "name": "Cano de 356 mm 40mm do M79",
+        "shortName": "Cano M79",
+        "description": "Cano de alumínio de 356 mm (14 polegadas) do lança-granadas M79, articulado na frente da caixa da culatra, com a telha de madeira e a alça de rampa rebatível montadas nele."
+      },
+      "ru": {
+        "name": "Ствол 356мм для гранатомета M79 40мм",
+        "shortName": "Ствол M79",
+        "description": "Алюминиевый ствол длиной 356 мм (14 дюймов) для гранатомета M79, шарнирно закрепленный в передней части ствольной коробки, с деревянным цевьем и откидным рамочным прицелом."
+      }
+    }
+  }
+}

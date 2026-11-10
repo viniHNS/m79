@@ -1,0 +1,22 @@
+{
+  "179f737454ab0af404ea2a64": {
+    "_id": "179f737454ab0af404ea2a64",
+    "_type": "Preset",
+    "_changeWeaponName": false,
+    "_name": "M79 default",
+    "_parent": "5cc3d7f483e0e0df2e64943d",
+    "_items": [
+      {
+        "_id": "5cc3d7f483e0e0df2e64943d",
+        "_tpl": "06b165b82cb6183fa8c45d52"
+      },
+      {
+        "_id": "5ca95beee3bae24d9eede7bc",
+        "_tpl": "f1ad6e58b4bacd580b81bc18",
+        "parentId": "5cc3d7f483e0e0df2e64943d",
+        "slotId": "mod_barrel"
+      }
+    ],
+    "_encyclopedia": "06b165b82cb6183fa8c45d52"
+  }
+}

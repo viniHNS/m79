@@ -1,0 +1,81 @@
+{
+  "manifest": [
+    {
+      "key": "weapon_m79_40x46_container.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/content/audio/banks/m1a.bundle",
+        "assets/content/audio/banks/mr133.bundle",
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/generic",
+        "assets/content/audio/weapons/kedr.bundle",
+        "assets/content/audio/weapons/mr133.bundle",
+        "assets/content/audio/weapons/pm.bundle",
+        "assets/content/audio/weapons/saiga12.bundle",
+        "assets/content/audio/weapons/sv98.bundle",
+        "assets/content/items/mods/magazines/mag_mr133_izhmeh_12g_6_.textures.bundle",
+        "assets/content/weapons/additional_hands/client_assets.bundle",
+        "assets/content/weapons/animations/spirit_animations.bundle",
+        "m79_assets.bundle",
+        "m79_textures.bundle",
+        "assets/content/weapons/mr133/client_assets.bundle",
+        "assets/content/weapons/mr133/textures/client_assets.bundle",
+        "assets/content/weapons/mr133/weapon_izhmeh_mr133_12g_container.bundle",
+        "assets/content/weapons/weapon_root_anim_fix.bundle",
+        "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+        "assets/systems/effects/heathaze/defaultheathaze.bundle",
+        "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+        "assets/systems/effects/smoke.bundle",
+        "cubemaps",
+        "shaders",
+        "m79_sounds.bundle"
+      ]
+    },
+    {
+      "key": "m79_assets.bundle",
+      "dependencyKeys": [
+        "cubemaps",
+        "shaders",
+        "m79_textures.bundle"
+      ]
+    },
+    {
+      "key": "m79_textures.bundle",
+      "dependencyKeys": []
+    },
+    {
+      "key": "barrel_m79_356mm_40x46.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "m79_assets.bundle",
+        "m79_textures.bundle",
+        "assets/systems/effects/smoke.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    },
+    {
+      "key": "m79_sounds.bundle",
+      "dependencyKeys": [
+        "assets/content/audio/blendoptions/assets.bundle"
+      ]
+    },
+    {
+      "key": "patron_40x46_ninho.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders",
+        "m79_sounds.bundle"
+      ]
+    },
+    {
+      "key": "patron_40x46_rip.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
+    }
+  ]
+}
