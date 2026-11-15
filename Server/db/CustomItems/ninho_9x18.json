@@ -50,17 +50,17 @@
       "en": {
         "name": "40x46mm \"Hornet's Nest\" 7x 9x18PM PBM",
         "shortName": "Nest PBM",
-        "description": "A machined aluminium 40mm sub-caliber insert with a brass base shaped like a standard 40x46mm case, factory-loaded with seven 9x18mm Makarov PBM armor-piercing cartridges. Fired from a 40mm launcher, all seven rounds leave at once, turning the launcher into a very short-range volley gun. Fits any 40x46mm launcher."
+        "description": "A machined aluminium 40mm sub-caliber insert with a brass base shaped like a standard 40x46mm case, factory-loaded with seven 9x18mm Makarov PBM armor-piercing cartridges. Fired from a 40mm launcher, all seven rounds leave at once, turning the launcher into a very short-range volley gun."
       },
       "po": {
         "name": "40x46mm \"Ninho de Vespa\" 7x 9x18PM PBM",
         "shortName": "Ninho PBM",
-        "description": "Inserto subcalibre de 40 mm usinado em alumínio, com base de latão no formato de um estojo 40x46mm padrão, carregado de fábrica com sete cartuchos 9x18mm Makarov PBM perfurantes. Disparado de um lança-granadas de 40 mm, os sete projéteis saem de uma vez, transformando o lançador numa arma de rajada de curtíssimo alcance. Serve em qualquer lança-granadas 40x46mm."
+        "description": "Inserto subcalibre de 40 mm usinado em alumínio, com base de latão no formato de um estojo 40x46mm padrão, carregado de fábrica com sete cartuchos 9x18mm Makarov PBM perfurantes. Disparado de um lança-granadas de 40 mm, os sete projéteis saem de uma vez, transformando o lançador numa arma de rajada de curtíssimo alcance."
       },
       "ru": {
         "name": "Выстрел 40x46мм \"Осиное гнездо\" 7x 9x18мм ПМ ПБМ",
         "shortName": "Гнездо ПБМ",
-        "description": "Фрезерованная алюминиевая 40-мм подкалиберная вставка с латунным основанием в форме стандартной гильзы 40x46мм, снаряженная на заводе семью бронебойными патронами 9x18мм ПМ ПБМ. При выстреле из 40-мм гранатомета все семь пуль вылетают одновременно, превращая гранатомет в залповое оружие для стрельбы на очень коротких дистанциях. Подходит для любого 40x46-мм гранатомета."
+        "description": "Фрезерованная алюминиевая 40-мм подкалиберная вставка с латунным основанием в форме стандартной гильзы 40x46мм, снаряженная на заводе семью бронебойными патронами 9x18мм ПМ ПБМ. При выстреле из 40-мм гранатомета все семь пуль вылетают одновременно, превращая гранатомет в залповое оружие для стрельбы на очень коротких дистанциях."
       }
     }
   }

@@ -5,7 +5,7 @@ using viniHNS.M79.Patches;
 namespace viniHNS.M79
 {
     // guid has to be unique (author.modname)
-    [BepInPlugin("viniHNS.M79", "vini's M79", "1.0.0")]
+    [BepInPlugin("viniHNS.M79", "vini's M79", "1.1.0")]
     public class Plugin : BaseUnityPlugin
     {
         public static ManualLogSource LogSource;
@@ -16,6 +16,9 @@ namespace viniHNS.M79
 
             // nest round sound on all the 40mm launchers
             new NestSoundPatch().Enable();
+
+            // xm1060 thermobaric blast effect
+            new ThermobaricEffectPatch().Enable();
 
             LogSource.LogInfo("M79 loaded!");
         }

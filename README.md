@@ -2,9 +2,9 @@
 
 # vini's M79
 
-The M79 "Thumper" for SPT 4.1.6: a single-shot, break-action 40x46mm grenade launcher, plus two new 40x46mm rounds, the R.I.P. and the Hornet's Nest.
+The M79 "Thumper" for SPT 4.1.6: a single-shot, break-action 40x46mm grenade launcher, plus three new 40x46mm rounds: the R.I.P., the Hornet's Nest and the thermobaric XM1060.
 
-![Version](https://img.shields.io/badge/version-1.0.0-orange?style=flat)
+![Version](https://img.shields.io/badge/version-1.1.0-orange?style=flat)
 ![SPT](https://img.shields.io/badge/SPT-4.1.6-blue?style=flat)
 ![WTT-CommonLib](https://img.shields.io/badge/WTT--CommonLib-3.0.6-purple?style=flat)
 ![.NET](https://img.shields.io/badge/.NET-10-512BD4?style=flat&logo=dotnet)
@@ -19,7 +19,7 @@ The M79 "Thumper" for SPT 4.1.6: a single-shot, break-action 40x46mm grenade lau
 ## Features
 
 - **M79 40mm grenade launcher**: single shot, break action, with its own "thump" firing sound. It fires every 40x46mm grenade in the game.
-- **Two new 40x46mm rounds**: R.I.P. and Hornet's Nest. They also fit the FN40GL, the M32A1 and the M203. See [Ammunition](#ammunition).
+- **Three new 40x46mm rounds**: R.I.P., Hornet's Nest and XM1060 (thermobaric, with its own blast effect). They also fit the FN40GL, the M32A1 and the M203. See [Ammunition](#ammunition).
 - Names and descriptions in English, Portuguese and Russian.
 
 ---
@@ -31,7 +31,7 @@ Install [WTT-CommonLib](https://github.com/WelcomeToThursday/WTT-CommonLib) **3.
 ```
 <game folder>/
 ├── BepInEx/plugins/
-│   └── M79.dll             client plugin (Hornet's Nest sound)
+│   └── M79.dll             client plugin (Hornet's Nest sound, XM1060 blast)
 └── SPT_Runtime/user/mods/M79/
     ├── M79.dll
     ├── bundles.json
@@ -39,7 +39,7 @@ Install [WTT-CommonLib](https://github.com/WelcomeToThursday/WTT-CommonLib) **3.
     └── db/                 items, preset, trader offers and locales
 ```
 
-The client plugin only changes the Hornet's Nest shot sound. Without it, everything else works.
+The client plugin adds the Hornet's Nest shot sound and the XM1060 blast effect. Install both parts.
 
 > The new items stay in your profile. Removing the mod after buying them breaks the profile.
 
@@ -62,7 +62,7 @@ The client plugin only changes the Hornet's Nest shot sound. Without it, everyth
 
 ## Ammunition
 
-Both rounds fit the M79, the FN40GL, the M32A1 and the M203. Both are sold by Mechanic.
+All three rounds fit the M79, the FN40GL, the M32A1 and the M203.
 
 | Round | Projectiles | Damage | Penetration | Armor damage | Speed | Recoil | Mechanic |
 |---|---|---|---|---|---|---|---|
@@ -71,6 +71,12 @@ Both rounds fit the M79, the FN40GL, the M32A1 and the M203. Both are sold by Me
 
 - **R.I.P.**: one solid copper projectile with eight petals that split on impact. Heavy bleeding, almost useless against armor.
 - **Hornet's Nest**: seven 9x18mm PBM rounds in one shell, fired at once. A short-range volley.
+
+| Round | Blast radius | Fragments | Speed | Arming distance | Peacekeeper |
+|---|---|---|---|---|---|
+| 40x46mm XM1060 (Thermobaric) | 2.5 to 7 m | None | 76 m/s | About 20 m | LL3, $750 (limit 2) |
+
+- **XM1060**: a thermobaric warhead. No fragments: a fireball and an overpressure wave, lethal within a few meters, that stuns and concusses anyone further out.
 
 ---
 
@@ -97,7 +103,7 @@ m79/
 │   ├── bundles.json                    bundle manifest
 │   ├── bundles/                        models, textures, animations and sounds
 │   └── db/
-│       ├── CustomItems/                M79, barrel, R.I.P. and Hornet's Nest (EN, PO, RU)
+│       ├── CustomItems/                M79, barrel and the three rounds (EN, PO, RU)
 │       ├── CustomLocales/              preset name
 │       └── weaponPresets/
 │           ├── GlobalPresets/          default preset
@@ -105,7 +111,10 @@ m79/
 └── Client/
     ├── M79.csproj
     ├── Plugin.cs                       BepInEx plugin
-    └── Patches/NestSoundPatch.cs       Hornet's Nest sound on every 40x46mm launcher
+    ├── Patches/
+    │   ├── NestSoundPatch.cs           Hornet's Nest sound on every 40x46mm launcher
+    │   └── ThermobaricEffectPatch.cs   registers the XM1060 blast effect
+    └── Thermobaric/                    XM1060 blast effect and its fireball and smoke sheets
 ```
 
 ---
@@ -113,7 +122,8 @@ m79/
 ## Credits
 
 - Firing sound: from Rising Storm 2: Vietnam (Tripwire Interactive, Antimatter Games), extracted by RichardNixon.
-- R.I.P. and Hornet's Nest: original models. The 9x18mm rounds inside the Hornet's Nest and its KS-23 blast are the game's.
+- R.I.P., Hornet's Nest and XM1060: original models. The 9x18mm rounds inside the Hornet's Nest and its KS-23 blast are the game's.
+- XM1060 blast: the game's grenade explosion, retuned, with an original fireball and smoke on top.
 
 ---
 

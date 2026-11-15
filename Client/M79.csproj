@@ -5,7 +5,7 @@
     <RootNamespace>viniHNS.M79</RootNamespace>
     <Nullable>disable</Nullable>
     <Authors>viniHNS</Authors>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0</AssemblyVersion>
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <Configurations>Debug;Release</Configurations>
     <Version>$(AssemblyVersion)</Version>
@@ -65,6 +65,12 @@
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>D:\Jogos\SPT4.1\EscapeFromTarkov_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>D:\Jogos\SPT4.1\EscapeFromTarkov_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>D:\Jogos\SPT4.1\EscapeFromTarkov_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.IMGUIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>D:\Jogos\SPT4.1\EscapeFromTarkov_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
@@ -80,6 +86,12 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>D:\Jogos\SPT4.1\EscapeFromTarkov_Data\Managed\UnityEngine.UI.dll</HintPath>
     </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- xm1060 fireball and smoke flipbooks, read by ThermobaricEffect -->
+    <EmbeddedResource Include="Thermobaric\fireball.png" LogicalName="viniHNS.M79.Thermobaric.fireball.png" Condition="Exists('Thermobaric\fireball.png')" />
+    <EmbeddedResource Include="Thermobaric\smoke.png" LogicalName="viniHNS.M79.Thermobaric.smoke.png" Condition="Exists('Thermobaric\smoke.png')" />
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">

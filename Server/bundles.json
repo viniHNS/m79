@@ -76,6 +76,14 @@
         "cubemaps",
         "shaders"
       ]
+    },
+    {
+      "key": "patron_40x46_xm1060.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders"
+      ]
     }
   ]
 }
